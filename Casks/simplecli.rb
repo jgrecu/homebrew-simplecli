@@ -3,7 +3,7 @@ cask "simplecli" do
   name "simplecli"
   desc "A simple CLI tool to test automated deployments"
   homepage "https://github.com/jgrecu"
-  version "1.0.6-beta"
+  version "1.0.7-beta"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "simplecli" do
   on_macos do
     on_intel do
       url "https://github.com/jgrecu/simplecli/releases/download/v#{version}/simplecli-darwin-x86_64.tar.gz"
-      sha256 "4f129aff0c63bac1b1122e1f31de86872395527dfe38e9d414ca908287ddfa62"
+      sha256 "93025e9b2d29f58dfb32c85b24eaec8d140f241377c624e5d20d6e1a705529c5"
     end
     on_arm do
       url "https://github.com/jgrecu/simplecli/releases/download/v#{version}/simplecli-darwin-arm64.tar.gz"
-      sha256 "c9af5d27d516996d4259d2c34de193b3fb024a94e676671e9c4b5b4be2c75ee5"
+      sha256 "036db019a010829582655544e93d9e7e680a33d1ad874041f161e3d3155b62cc"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jgrecu/simplecli/releases/download/v#{version}/simplecli-linux-x86_64.tar.gz"
-      sha256 "d61ed9e83d5e0deb3b7effdb53d428e6b32a54307ea9e6639298fed821558f16"
+      sha256 "a6715b59885fdb6638d8451f46c40668d78c3052fa301cad53bf7cdff04c5142"
     end
     on_arm do
       url "https://github.com/jgrecu/simplecli/releases/download/v#{version}/simplecli-linux-arm64.tar.gz"
-      sha256 "f090b616bd3f79e20ebc165382ed12ea4f0a9e1d7ef64ce013ef68f8c043f9e0"
+      sha256 "ea38271c4ae8e9b876af7b5f267b7f21a5563beb7c839644d4b597f9814ef1b1"
     end
   end
 
